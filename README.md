@@ -18,7 +18,7 @@ Code implementation walks through full lifecycle of RAG, i.e.
 5. Store into Chroma db
 6. Retrieval at chatting via function call
 
-<video src="docs/demo-sg-lawyer.mp4" width="1000" height="400"  controls autoplay loop></video>
+<img src="docs/demo-sg-lawyer.gif" alt="drawing" width="1000"/>
 
 ## How to use
 
