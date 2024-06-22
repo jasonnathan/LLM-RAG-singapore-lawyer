@@ -103,7 +103,7 @@ if __name__ == "__main__":
     '''
 
     # To embed sg acts.
-    embed_sg_acts()
+    # embed_sg_acts()
 
     # To delete existing Chroma db collection.
     lc_cll_in_use.delete_collection()

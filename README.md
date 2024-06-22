@@ -22,7 +22,9 @@ Code implementation walks through full lifecycle of RAG, i.e.
 
 1. `pipenv install`
 2. Fill `config.py`
-3. `python talk_to_assistant.py`
+3. Embedding is completed using `text-embedding-3-small`, embedding vectors are stored under /data/acts_embedding/text-embedding-3-small
+4. Just run `python scripts/embed_sg_acts.py` to save these vectors into Chroma DB
+5. Start chat by running `python talk_to_assistant.py`
 
 - \*As of now, the agent is implemented for CLI only
 
